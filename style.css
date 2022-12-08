@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #0e0e0ee0;
+}
+
+.nav-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px;
+}
+.nav-wrap {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-cont {
+  width: 20%;
+}
+.logo {
+  width: 150px;
+  height: 60px;
+}
+#logo {
+  width: 100%;
+  height: 100%;
+}
+.nav-link {
+  width: 50%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 40px;
+}
+.nav-link li {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.login-wrap {
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.srch-cont {
+  width: 20px;
+  height: 20px;
+}
+#srch {
+  width: 100%;
+  height: 100%;
+}
+.login{
+  background: none;
+  outline: none;
+  border: 1px solid white;
+  padding: 10px 15px;
+
+}
+.login a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+}
+.start{
+  background: white;
+  outline: none;
+  padding: 10px 15px;
+}
+.start a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 200;
+}
+.banner-container {
+  margin-top: 50px;
+  width: 100%;
+  
+}
+.banner-wrap {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-banner {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.banner-title{
+  font-size: 3rem;
+font-weight: 400;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+word-wrap: break-word;
+width: 70%;
+color: white;
+}
+.banner-p{
+  width: 80%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+}
+.btn-wrap{
+  width: 78%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-banner-btn{
+  width: 48%;
+  color: pink;
+  font-size: 14px;
+  font-weight: 500;
+  background: none;
+  outline: none;
+  border: 2px solid pink;
+  padding: 15px 15px;
+}
+.left-banner-btn:hover{
+  background: pink;
+  color: black;
+}
+.left-banner-btn2{
+  width: 48%;
+  color: yellow;
+  font-size: 14px;
+  font-weight: 500;
+  background: none;
+  outline: none;
+  border: 2px solid yellow;
+  padding: 15px 15px;
+}
+.left-banner-btn2:hover{
+  background: yellow;
+  color: black;
+}
+.right-banner {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.banner-img-wrap {
+  width: 600px;
+  height: 500px;
+}
+#banner-img {
+  width: 100%;
+  height: 100%;
+}
